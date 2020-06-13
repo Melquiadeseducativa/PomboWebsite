@@ -1,0 +1,91 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #000;
+    font-family: 'Azo Sans', sans-serif;
+}
+
+.title h2 {
+    text-align: center !important;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+
+.app .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.app .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.lg-div {
+    display: block;
+}
+
+.img-cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .team-name {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .lg-div {
+        display: none !important;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
