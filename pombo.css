@@ -15,6 +15,9 @@ body {
     text-align: center !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* Center align the text within the three columns below the carousel */
 
