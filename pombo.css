@@ -16,8 +16,17 @@ body {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
+a {
+    color: #4E24D1;
+}
+
+a:hover {
+    color: #4E24D1;
+}
+
 
 /* Center align the text within the three columns below the carousel */
 
@@ -85,6 +94,46 @@ html {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+}
+
+.sm-icons {
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.pombo-button {
+    background-color: #4E24D1;
+    color: #fff;
+}
+
+.pombo-button:hover {
+    background-color: #303030;
+    color: #fff;
+}
+
+.pombo-button :focus {
+    color: #fff !important;
+}
+
+.container-fluid.app {
+    background-color: #4E24D1;
+    color: #fff;
+}
+
+p.app {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h2.app {
+    text-align: center;
+}
+
+h3.app {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 
