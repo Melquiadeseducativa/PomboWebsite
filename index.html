@@ -4,30 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Pombo Education</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
     <link rel="stylesheet" href="https://use.typekit.net/yec5dxf.css">
 
+    <!-- Local CSS -->
     <link href="pombo.css" rel="stylesheet">
 </head>
 
@@ -43,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> App <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#app"> App <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#team"> Equipo <span class="sr-only">(current)</span></a>
@@ -57,7 +44,7 @@
 
     <main role="main">
 
-        <div class="container app pt-4">
+        <div id="app" class="container app pt-4">
 
             <div class="row featurette pt-5">
                 <div class="col-md-7">
@@ -202,16 +189,14 @@
 
 
         <!-- FOOTER -->
-        <footer class="container mt-5">
+        <footer class="container">
             <p class="float-right"><a href="#">Back to top</a></p>
             <p>&copy; Pombo Education. </p>
         </footer>
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')
-    </script>
+
     <script src="./assets/dist/js/bootstrap.bundle.js"></script>
+
 </body>
 
 </html>
