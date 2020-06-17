@@ -18,7 +18,7 @@
             -ms-user-select: none;
             user-select: none;
         }
-
+        
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
@@ -56,10 +56,6 @@
     </header>
 
     <main role="main">
-
-        <!-- Marketing messaging and featurettes
-  ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
 
         <div class="container app pt-4">
 
@@ -180,23 +176,31 @@
         <hr class="featurette-divider">
 
         <!--Contact-->
-        <div id="contact" class="container">
+        <div id="team" class="container">
             <div class="row justify-content-center">
                 <div class="col title pb-5">
-                    <h2>Contáctenos</h2>
+                    <h2>Contact</h2>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col">
-                    <ul>
-                        <li>
-
-                        </li>
-                    </ul>
+            <div class="row justify-content-center pb-5">
+                <div class="col col-lg-8">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Juan Pérez">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailAdress">Correo Electrónico</label>
+                            <input type="text" class="form-control" id="emailAdress" placeholder="ejemplo@colegio.edu">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Mensaje</label>
+                            <textarea class="form-control" id="contactMessage" rows="5" placeholder="Mensaje"></textarea>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-
 
 
         <!-- FOOTER -->
