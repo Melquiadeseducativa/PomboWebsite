@@ -162,7 +162,7 @@
             </div>
             <div class="row justify-content-center pb-5">
                 <div class="col col-lg-8">
-                    <form>
+                    <form ID="contactForm">
                         <div class="form-group">
                             <label for="name">Nombre</label>
                             <input type="text" class="form-control" id="name" placeholder="Juan Pérez">
@@ -176,12 +176,14 @@
                             <textarea class="form-control" id="contactMessage" rows="5" placeholder="Mensaje"></textarea>
                         </div>
                         <div class="form-group d-flex justify-content-center">
-                            <button type="button" class="btn pombo-button">Envíar</button>
+                            <button type="submit" class="btn pombo-button">Envíar</button>
                         </div>
                     </form>
+                    <div class="alert">Your message has been sent</div>
                 </div>
             </div>
         </div>
+
 
 
         <!-- FOOTER -->
@@ -194,6 +196,16 @@
     </main>
 
     <script src="./assets/dist/js/bootstrap.bundle.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+
+    <script src="PomboContactFB.js"></script>
 
 </body>
 
