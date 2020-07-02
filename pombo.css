@@ -76,6 +76,8 @@ a:hover {
 }
 
 .img-cont {
+    display: flex;
+    align-items: flex-start; /* new */
     width: 100%;
     justify-content: center;
 }
