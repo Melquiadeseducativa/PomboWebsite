@@ -20,21 +20,27 @@
 
     <!-- Local CSS -->
     <link href="pombo.css" rel="stylesheet">
+
+    <script>
+	$(document).on('click',function(){
+		$('.collapse').collapse('hide');
+	})
+	</script> 
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#app">
                 <img src="./assets/brand/pombo education.svg" width="80" height="30" alt="Pombo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+           	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+       	    	<span class="navbar-toggler-icon"></span>
+  			</button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> App <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#app"> App <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#team"> Equipo <span class="sr-only">(current)</span></a>
@@ -72,8 +78,6 @@
                 </div>
                 <hr class="featurette-divider" id="team">
             </div>
-
-
         </div>
         <!-- /.container -->
 
@@ -165,21 +169,21 @@
                     <form ID="contactForm">
                         <div class="form-group">
                             <label for="name">Nombre</label>
-                            <input type="text" class="form-control" id="name" placeholder="Juan Pérez">
+                            <input type="text" class="form-control" id="name" placeholder="Rafael Pombo">
                         </div>
                         <div class="form-group">
                             <label for="emailAdress">Correo Electrónico</label>
-                            <input type="text" class="form-control" id="emailAdress" placeholder="ejemplo@colegio.edu">
+                            <input type="text" class="form-control" id="emailAdress" placeholder="ejemplo@email.com">
                         </div>
                         <div class="form-group">
                             <label for="contactMessage">Mensaje</label>
-                            <textarea class="form-control" id="contactMessage" rows="5" placeholder="Mensaje"></textarea>
+                            <textarea class="form-control" id="contactMessage" rows="5" placeholder="Mensaje..."></textarea>
                         </div>
                         <div class="form-group d-flex justify-content-center">
                             <button type="submit" class="btn pombo-button">Envíar</button>
                         </div>
                     </form>
-                    <div class="alert">Your message has been sent</div>
+                    <div class="alert">Su mensaje ha sido envíado</div>
                 </div>
             </div>
         </div>
@@ -190,7 +194,7 @@
         <footer class="container footer">
             <div class="d-flex justify-content-between">
                 <p>&copy; Pombo Education. </p>
-                <p><a href="#">Back to top</a></p>
+                <p><a href="#app">Back to top</a></p>
             </div>
         </footer>
     </main>
@@ -206,6 +210,9 @@
 
 
     <script src="PomboContactFB.js"></script>
+
+    <!-- Smooth Scroll Script -->
+    <script src="./assets/dist/js/smooth-scroll.js"></script>
 
 </body>
 

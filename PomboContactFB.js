@@ -23,15 +23,17 @@ function submitForm(e){
   var email = getInputVal('emailAdress');
   var message = getInputVal('contactMessage');
 
-  saveMessage(name, email, message);
+  if (name != "" && email != "" && message != "") {
+    saveMessage(name, email, message);
 
-  document.querySelector(".alert").style.display = "block";
+    document.querySelector(".alert").style.display = "block";
 
-  setTimeout(function(){
-    document.querySelector(".alert").style.display = "none";
-  },3000);
+    setTimeout(function(){
+      document.querySelector(".alert").style.display = "none";
+    },3000);
 
-  document.getElementById("contactForm").reset();
+    document.getElementById("contactForm").reset();
+  }
 }
 
 function getInputVal(id){
