@@ -104,6 +104,10 @@ a:hover {
     font-size: 1.3rem;
 }
 
+a.sm-icons:hover {
+    text-decoration: none;
+}
+
 .pombo-button {
     background-color: #4E24D1;
     color: #fff;
