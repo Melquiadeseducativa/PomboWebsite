@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyC6LtdxQSZEjWd6p02JAlkABkacJKx4WyE",
-    authDomain: "https://contactform-42df0.firebaseio.com/",
+    apiKey: "AIzaSyAF6t6Kd3kMo8RvmaHrGn5qiXv1oQJf3Ho",
+    authDomain: "contactform-42df0.firebaseapp.com",
     databaseURL: "https://contactform-42df0.firebaseio.com",
     projectId: "contactform-42df0",
     storageBucket: "contactform-42df0.appspot.com",
-    messagingSenderId: "232680294518",
-    appId: "1:232680294518:web:15c8c749321d0f53dfb757",
-    measurementId: "G-35L2G2C2LN"
+    messagingSenderId: "437354160799",
+    appId: "1:437354160799:web:1f0326f02b994c36c6f8aa",
+    measurementId: "G-BXMR7VFP90"
   };
 
 firebase.initializeApp(firebaseConfig);
